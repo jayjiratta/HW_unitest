@@ -1,0 +1,5 @@
+Two Characters - 33
+Caesar Cipher - 12
+Funny String - 10
+Grid Challenge - 13
+Alternating Characters - 15
