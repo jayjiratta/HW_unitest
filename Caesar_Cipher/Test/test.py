@@ -51,6 +51,37 @@ class PrimeListTest(unittest.TestCase):
         result = get_caesarCipher(s, k)
         self.assertEqual(result,"!w-bL`-yX!.G`mVKmFlX/MaCyyvSS!CSwts.!g/`He`eJk1DGZBa`eBLdyu`hZD`vV-jZDm.LCBSre..-!.!dmv!-E")
 
+    def test_give_Dn__oW_X_SjthvUV (self): #Dn-/oW/X`SjthvUV
+        n = 16
+        s = 'Pz-/aI/J`EvfthGH'
+        k = 66
+        result = get_caesarCipher(s, k)
+        self.assertEqual(result,"Dn-/oW/X`SjthvUV")
 
+    def test_give_100_string (self): #WGYcqh?u5a*5<EPuzl6?O5{3F].1aZ)io1OPj4(!][WS3Z)kbLC.VfNc9]7Zse?OrxC2wBIXP4ZRP*lvM8(oan9pVk]j!7xrthr.
+        n = 100
+        s = 'DNFjxo?b5h*5<LWbgs6?V5{3M].1hG)pv1VWq4(!][DZ3G)riSJ.CmUj9]7Gzl?VyeJ2dIPEW4GYW*scT8(vhu9wCr]q!7eyaoy.'
+        k = 45
+        result = get_caesarCipher(s, k)
+        self.assertEqual(result,"WGYcqh?u5a*5<EPuzl6?O5{3F].1aZ)io1OPj4(!][WS3Z)kbLC.VfNc9]7Zse?OrxC2wBIXP4ZRP*lvM8(oan9pVk]j!7xrthr.")
 
+    def test_give_53_string (self): #6MFE95QigCLQY85mee3WH2laic1jX8s6p2iBMeODrSs6GFMuIeWWa
+        n = 53
+        s = '6DWV95HzxTCHP85dvv3NY2crzt1aO8j6g2zSDvFUiJj6XWDlZvNNr'
+        k = 87
+        result = get_caesarCipher(s, k)
+        self.assertEqual(result,"6MFE95QigCLQY85mee3WH2laic1jX8s6p2iBMeODrSs6GFMuIeWWa")
 
+    def test_give_78_string (self): #1Y7U4WsDt23l4ww08E6zR3T19H4sWQ188N9bivyC6k1uNHAt1n10fz7fVk62XW2fyMU4D83am7R80N
+        n = 78
+        s = '1X7T4VrCs23k4vv08D6yQ3S19G4rVP188M9ahuxB6j1tMGZs1m10ey7eUj62WV2exLT4C83zl7Q80M'
+        k = 27
+        result = get_caesarCipher(s, k)
+        self.assertEqual(result,"1Y7U4WsDt23l4ww08E6zR3T19H4sWQ188N9bivyC6k1uNHAt1n10fz7fVk62XW2fyMU4D83am7R80N")
+
+    def test_give_38_string (self): #Fqbfdx-Qttp-ts-ymj-Gwnlmy-Xnij-tk-Qnkj
+        n = 38
+        s = 'Always-Look-on-the-Bright-Side-of-Life'
+        k = 5
+        result = get_caesarCipher(s, k)
+        self.assertEqual(result,"Fqbfdx-Qttp-ts-ymj-Gwnlmy-Xnij-tk-Qnkj")
