@@ -20,6 +20,6 @@ def is_funny(test_string):
     return True
 
 # Generate 5 funny strings of length 4 as an example
-for _ in range(5):
-    funny_result = generate_funny_string(9)
-    print(funny_result)
+# for _ in range(5):
+funny_result = generate_funny_string(15)
+print(funny_result)

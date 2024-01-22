@@ -1,5 +1,7 @@
-def lencheck(word) :
-    return len(word)
+def lencheck(lst):
+    for_name = '_'.join(str(len(s)) for s in lst)
+    return for_name
 
-user = input("word : ")
-print(lencheck(user))
+user = input("list: ")
+print(lencheck(eval(user)))
+
