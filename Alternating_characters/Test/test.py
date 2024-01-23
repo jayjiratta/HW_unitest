@@ -19,92 +19,92 @@ from Alternating_characters.Test.test_case import (
 )
 
 class TestDataTestCases(unittest.TestCase):
-    def test_list_1 (self) :
+    def test_list_8 (self) :
         user_lst = list_1_question
         if isinstance(user_lst, list):
             result = all(user_lst)
         self.assertListEqual(result, list_1_ans)
     
-    def test_list_2 (self) :
+    def test_list_4999_3265_1212_2005 (self) :
         user_lst = list_2_question
         if isinstance(user_lst, list):
             result = all(user_lst)
         self.assertListEqual(result, list_2_ans)
 
-    def test_list_3 (self) :
+    def test_list_5596_7826 (self) :
         user_lst = list_3_question
         if isinstance(user_lst, list):
             result = all(user_lst)
         self.assertListEqual(result, list_3_ans)
 
-    def test_list_4 (self) :
+    def test_list_4_5_8_6_6 (self) :
         user_lst = list_4_question
         if isinstance(user_lst, list):
             result = all(user_lst)
         self.assertListEqual(result, list_4_ans)
     
-    def test_list_5 (self) :
+    def test_list_10_8_8 (self) :
         user_lst = list_5_question
         if isinstance(user_lst, list):
             result = all(user_lst)
         self.assertListEqual(result, list_5_ans)
 
-    def test_list_6 (self) :
+    def test_list_123_456_789_147_258_369_741_852_963 (self) :
         user_lst = list_6_question
         if isinstance(user_lst, list):
             result = all(user_lst)
         self.assertListEqual(result, list_6_ans)
     
-    def test_list_7 (self) :
+    def test_list_1266_1580_1477_1172_1098_1691_1071_1440 (self) :
         user_lst = list_7_question
         if isinstance(user_lst, list):
             result = all(user_lst)
         self.assertListEqual(result, list_7_ans)
     
-    def test_list_8 (self) :
+    def test_list_9_16_4_8_15_7 (self) :
         user_lst = list_8_question
         if isinstance(user_lst, list):
             result = all(user_lst)
         self.assertListEqual(result, list_8_ans)
 
-    def test_list_9 (self) :
+    def test_list_34_29_30_33_26_24_20 (self) :
         user_lst = list_9_question
         if isinstance(user_lst, list):
             result = all(user_lst)
         self.assertListEqual(result, list_9_ans)
 
-    def test_list_10 (self) :
+    def test_list_73_99_95_88_66_48_81_91_51_64 (self) :
         user_lst = list_10_question
         if isinstance(user_lst, list):
             result = all(user_lst)
         self.assertListEqual(result, list_10_ans)
     
-    def test_list_11 (self) :
+    def test_list_128_190 (self) :
         user_lst = list_11_question
         if isinstance(user_lst, list):
             result = all(user_lst)
         self.assertListEqual(result, list_11_ans)
 
-    def test_list_12 (self) :
+    def test_list_251_464_299_294_330_331_305_249_228 (self) :
         user_lst = list_12_question
         if isinstance(user_lst, list):
             result = all(user_lst)
         self.assertListEqual(result, list_12_ans)
 
-    def test_list_13 (self) :
+    def test_list_539_526_647_685_654_515_710_772_732_746 (self) :
         user_lst = list_13_question
         if isinstance(user_lst, list):
             result = all(user_lst)
         self.assertListEqual(result, list_13_ans)
     
-    def test_list_14 (self) :
+    def test_list_2_41_65_45_88 (self) :
         user_lst = list_14_question
         if isinstance(user_lst, list):
             result = all(user_lst)
         self.assertListEqual(result, list_14_ans)
 
-    def test_list_14 (self) :
-        user_lst = list_14_question
+    def test_list_1518_2187_2283 (self) :
+        user_lst = list_15_question
         if isinstance(user_lst, list):
             result = all(user_lst)
-        self.assertListEqual(result, list_14_ans)
+        self.assertListEqual(result, list_15_ans)
