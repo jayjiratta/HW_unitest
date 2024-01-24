@@ -12,5 +12,4 @@ user = int(input("num: "))
 min = int(input("min: "))
 max = int(input("max: "))
 random_string_result = generate_random_string(user,min,max)
-for i in random_string_result :
-    print(i)
+print(random_string_result)

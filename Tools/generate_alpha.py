@@ -10,5 +10,7 @@ def generate_random_letters(num_letters):
 
 count = int(input("line"))
 for i in range(count) :
-    result = generate_random_letters(num_letters_input)
-    print(result)
+    num_letters_input = int(input(""))
+    for i in range(num_letters_input) :
+        result = generate_random_letters(num_letters_input)
+        print(result)
