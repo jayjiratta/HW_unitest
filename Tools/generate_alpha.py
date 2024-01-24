@@ -9,7 +9,6 @@ def generate_random_letters(num_letters):
         return "Number of letters must be between 2 and 10000."
 
 count = int(input("line"))
-num_letters_input = int(input("long"))
 for i in range(count) :
     result = generate_random_letters(num_letters_input)
     print(result)
